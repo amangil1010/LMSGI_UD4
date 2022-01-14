@@ -1,0 +1,151 @@
+<libros>
+    <libro>
+        <autores>
+            <autor>
+                <apellido1>Manzano</apellido1>
+                <apellido2>Ordoñez</apellido2>
+                <nombre>Javier</nombre>
+            </autor>
+            <autor>
+                <apellido1>Garrido</apellido1>
+                <apellido2>Garcia</apellido2>
+                <nombre>Cristian</nombre>
+            </autor>
+        </autores>
+    <titulo>Harry Potter</titulo>
+    <ISBN>9780439554930</ISBN>
+    <editorial>Electronic Arts</editorial>
+    <fecha_de_publicacion>2001</fecha_de_publicacion>
+    </libro>
+
+    <libro>
+        <autores>
+            <autor>
+                <apellido1>Muñoz</apellido1>
+                <apellido2>Gorka</apellido2>
+                <nombre>Brayan</nombre>
+            </autor>
+        </autores>
+    <titulo>La Historia</titulo>
+    <ISBN>9780439554938</ISBN>
+    <editorial>LATORRE</editorial>
+    <fecha_de_publicacion>2008</fecha_de_publicacion>
+    </libro>
+
+    <libro>
+        <autores>
+            <autor>
+                <apellido1>German</apellido1>
+                <apellido2>Lorenzo</apellido2>
+                <nombre>Manolo</nombre>
+            </autor>
+        </autores>
+    <titulo>La leyenda de manolo</titulo>
+    <ISBN>9780439554555</ISBN>
+    <editorial>La Casa</editorial>
+    <fecha_de_publicacion>2005</fecha_de_publicacion>
+    </libro>
+
+    <libro>
+        <autores>
+            <autor>
+                <apellido1>cayetano</apellido1>
+                <apellido2>Roldan</apellido2>
+                <nombre>German</nombre>
+            </autor>
+        </autores>
+    <titulo>La Oscuridad del abisamo</titulo>
+    <ISBN>9780439554777</ISBN>
+    <editorial>LaTorre</editorial>
+    <fecha_de_publicacion>2000</fecha_de_publicacion>
+    </libro>
+
+    <libro>
+        <autores>
+            <autor>
+                <apellido1>Santos</apellido1>
+                <apellido2>Calderon</apellido2>
+                <nombre>Jose</nombre>
+            </autor>
+        </autores>
+    <titulo>La Escalera</titulo>
+    <ISBN>9780439554900</ISBN>
+    <editorial>La Pica</editorial>
+    <fecha_de_publicacion>2000</fecha_de_publicacion>
+    </libro>
+
+    <libro>
+        <autores>
+            <autor>
+                <apellido1>Manzano</apellido1>
+                <apellido2>Ordoñez</apellido2>
+                <nombre>Javier</nombre>
+            </autor>
+            <autor>
+                <apellido1>Garrido</apellido1>
+                <apellido2>Garcia</apellido2>
+                <nombre>Cristian</nombre>
+            </autor>
+        </autores>
+    <titulo>Harry Potter</titulo>
+    <ISBN>9780439554930</ISBN>
+    <editorial>Electronic Arts</editorial>
+    <fecha_de_publicacion>2001</fecha_de_publicacion>
+    </libro>
+
+    <libro>
+        <autores>
+            <autor>
+                <apellido1>Muñoz</apellido1>
+                <apellido2>Gorka</apellido2>
+                <nombre>Brayan</nombre>
+            </autor>
+        </autores>
+    <titulo>La Historia</titulo>
+    <ISBN>9780439554938</ISBN>
+    <editorial>LATORRE</editorial>
+    <fecha_de_publicacion>2008</fecha_de_publicacion>
+    </libro>
+
+    <libro>
+        <autores>
+            <autor>
+                <apellido1>German</apellido1>
+                <apellido2>Lorenzo</apellido2>
+                <nombre>Manolo</nombre>
+            </autor>
+        </autores>
+    <titulo>La leyenda de manolo</titulo>
+    <ISBN>9780439554555</ISBN>
+    <editorial>La Casa</editorial>
+    <fecha_de_publicacion>2005</fecha_de_publicacion>
+    </libro>
+
+    <libro>
+        <autores>
+            <autor>
+                <apellido1>cayetano</apellido1>
+                <apellido2>Roldan</apellido2>
+                <nombre>German</nombre>
+            </autor>
+        </autores>
+    <titulo>La Oscuridad del abisamo</titulo>
+    <ISBN>9780439554777</ISBN>
+    <editorial>LaTorre</editorial>
+    <fecha_de_publicacion>2000</fecha_de_publicacion>
+    </libro>
+
+    <libro>
+        <autores>
+            <autor>
+                <apellido1>Santos</apellido1>
+                <apellido2>Calderon</apellido2>
+                <nombre>Jose</nombre>
+            </autor>
+        </autores>
+    <titulo>La Escalera</titulo>
+    <ISBN>9780439554900</ISBN>
+    <editorial>La Pica</editorial>
+    <fecha_de_publicacion>2000</fecha_de_publicacion>
+    </libro>
+</libros>
