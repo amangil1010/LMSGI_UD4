@@ -1,5 +1,6 @@
-<!ELEMENT Libros (libros*)>
-<!ELEMENT libro (autores, titulos,editorial,fechaPublicacionISBN)>
+<?xml version="1.0" encoding = "UTF-8" ?>
+<!ELEMENT listalibros (libro*)>
+<!ELEMENT libro (autores,titulo,ISBN,editorial,fecha_de_publicacion)>
 <!ELEMENT autores (autor+)>
 <!ELEMENT autor (apellido1,apellido2,nombre)>
 <!ELEMENT apellido1 (#PCDATA)>
