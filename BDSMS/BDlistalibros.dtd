@@ -1,0 +1,11 @@
+<!ELEMENT Libros (libros*)>
+<!ELEMENT libro (autores, titulos,editorial,fechaPublicacionISBN)>
+<!ELEMENT autores (autor+)>
+<!ELEMENT autor (apellido1,apellido2,nombre)>
+<!ELEMENT apellido1 (#PCDATA)>
+<!ELEMENT apellido2 (#PCDATA)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT ISBN  (#PCDATA)>
+<!ELEMENT editorial (#PCDATA)>
+<!ELEMENT fecha_de_publicacion (#PCDATA)>
