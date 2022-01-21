@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="ISO-88596-1"?>
+<!DOCTYPE Almacen SYSTEM "Concesionario.dtd">
+<Almacen>
+        <coche>
+            <Código_de_coche>1</Código_de_coche>
+            <Marca>Seat</Marca>
+            <Modelo>Ibiza</Modelo>
+            <Matrícula>8765 DMK</Matrícula>
+            <Potencia>400</Potencia>
+            <Plazas>5</Plazas>
+            <Número_de_puertas>3</Número_de_puertas>
+        </coche>
+        <coche>
+            <Código_de_coche>2</Código_de_coche>
+            <Marca>Ferrari</Marca>
+            <Modelo>Ferrari</Modelo>
+            <Matrícula>8767 OMK</Matrícula>
+            <Potencia>400</Potencia>
+            <Plazas>2</Plazas>
+            <Número_de_puertas>3</Número_de_puertas>
+        </coche>
+        <coche>
+            <Código_de_coche>3</Código_de_coche>
+            <Marca>Seat</Marca>
+            <Modelo>Ibiza</Modelo>
+            <Matrícula>5765 QPK</Matrícula>
+            <Potencia>120</Potencia>
+            <Plazas>1</Plazas>
+            <Número_de_puertas>4</Número_de_puertas>
+        </coche>
+        <coche>
+            <Código_de_coche>4</Código_de_coche>
+            <Marca>Audi</Marca>
+            <Modelo>R8</Modelo>
+            <Matrícula>8763 ABC</Matrícula>
+            <Potencia>600</Potencia>
+            <Plazas>1</Plazas>
+            <Número_de_puertas>3</Número_de_puertas>
+        </coche>
+        <coche>
+            <Código_de_coche>4</Código_de_coche>
+            <Marca>Audi</Marca>
+            <Modelo>R8</Modelo>
+            <Matrícula>8763 ABC</Matrícula>
+            <Potencia>600</Potencia>
+            <Plazas>1</Plazas>
+            <Número_de_puertas>3</Número_de_puertas>
+        </coche>
+</Almacen>
