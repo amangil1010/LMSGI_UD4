@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE Clientes SYSTEM "Empresa.dtd">
+<Clientes>
+        <Sede Codigo ='Aaaaaaaa'>
+            <Direcciones>Arcos</Direcciones>
+            <Nombre_Del_Empleado>Seat</Nombre_Del_Empleado>
+            <Fecha_Del_Alta>Ibiza</Fecha_Del_Alta>
+            <Descripcion>8765 DMK</Descripcion>
+            <Cliente Codigo ='AAA-001'>
+                <Numero_De_Viviendas>Seat</Numero_De_Viviendas>
+                <Coste>Ibiza</Coste>
+                <Resumen>8765 DMK</Resumen>
+                <Plazo></Plazo>
+            </Cliente>
+        </Sede>
+</Clientes>
