@@ -6,11 +6,11 @@
 				<xs:element name="Sede" maxOccurs="unbounded">
 					<xs:complexType>
 						<xs:sequence>
-							<xs:attribute name="Codigo">
+							<xs:attribute name="Codigo" >
 								<xs:simpleType>
 									<xs:restriction base="xs:string">
-										<xs:maxLength value="8"/>
 										<xs:pattern value="([A-Z])*"/>
+										<xs:maxLength value="8"/>
 									</xs:restriction>
 								</xs:simpleType>
 							</xs:attribute>
@@ -18,7 +18,7 @@
 							<xs:element name="Nombre_Del_Empleado" type="xs:string"/>
 							<xs:element name="Fecha_Del_Alta" type="xs:date"/>
 							<xs:element name="Descripcion" type="xs:string"/>
-							<xs:element name="Clientes" maxOccurs="unbounded">
+							<xs:element name="Cliente" maxOccurs="unbounded">
 								<xs:complexType>
 									<xs:sequence>
 										<xs:element name="Numero_De_Viviendas" type="xs:string"/>

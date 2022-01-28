@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLShema">
+	<xs:annotation>
+		<xs:documentation xml:lang="Es-es">
+			Esquema para el alta de clientes en sede central
+			<fecha>2020-01-31</fecha>
+			<autor>Andres Mancheño Gil</autor>
+		</xs:documentation>
+	</xs:annotation>
+	<xs:element name="Clientes" type="clienteDatos"/>
+	<xs:complexType name="clienteDatos">
+		<xs:sequence>
+			<xs:element name="Sede" type="sedeDatos" minOccurs="1" maxOccurs="unbodmen"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="sedeDatos">
+		<xs:sequence>
+			<xs:element name="Direcciones" type="xs:string" minOccurs="0" maxOccurs="unbodmen"/>
+			<xs:element name="Nombre_Del_Empleado" type="xs:string" />
+			<xs:element name="Fecha_Del_Alta" type="xs:date" />
+			<xs:element name="Descripcion" type="xs:string" minOccurs="0"/>
+			<xs:element name="Cliente" type="xs:string" minOccurs="1" minOccurs="unbodmen" />
+		</xs:sequence>
+		<xs:atributte name="codigo" typo="codigoTipo" use="required"/>
+	</xs:complexType>
+	<xs:simpleTyple name="codigoTipo">
+		<xs:restriccion base="xs:string">
+			<xs:pattern value="[A-Za-z]([A-Za-z0-9]){7}" />
+		</xs:restriccion>
+	</xs:simpleTyple>
+	<xs:complexType name="ClienteDatos">
+		<xs:sequence>
+			<xs:element name="Numero_De_Viviendas">
+				<xs:simpleType>
+					<xs:restriction base="xs:positiveInterger">
+						<xs:minInclusive value="1"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="Coste">
+				<xs:simpleType>
+					<xs:restriction base="xs:decimal">
+						<xs:minInclusive value="1"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="Resumen" type="xs:string" />
+			<xs:element name="Plazo">
+				<xs:simpleType>
+					<xs:restriction base="xs:positiveInteger">
+						<xs:minInclusive value="1"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+		</xs:sequence>
+		<xs:attribute name="codigo" type="codigoCliente" use="required" />
+	</xs:complexType>
+	<xs:simpleTyple name="codigoCliente">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="[A-Z]{3}-[0-9]{3}" />
+		</xs:restriction>
+	</xs:simpleTyple>
+</xs:schema>
