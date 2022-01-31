@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding = "UTF-8" ?>
-<!ELEMENT Clientes (cliente*)>
-<!ELEMENT cliente (Código,Numero_De_Viviendas,Coste,Resumen,Plazo)>
-<!ELEMENT Código (#PCDATA)>
-<!ELEMENT Numero_De_Viviendas (#PCDATA)>
-<!ELEMENT Coste (#PCDATA)>
-<!ELEMENT Resumen (#PCDATA)>
-<!ELEMENT Plazo (#PCDATA)>
