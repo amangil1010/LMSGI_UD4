@@ -1,16 +1,28 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <!--<!DOCTYPE Clientes SYSTEM "Empresa.dtd">-->
-<Clientes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Empresa.xsd">    
-    <Sede Codigo="AAAAAAAA">
+<Clientes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="SOL_Empresa.xsd">    
+    <Sede codigo="A0000000">
         <Direcciones>Arcos</Direcciones>
         <Nombre_Del_Empleado>Seat</Nombre_Del_Empleado>
-        <Fecha_Del_Alta>10-10-2021</Fecha_Del_Alta>
+        <Fecha_Del_Alta>2022-02-22</Fecha_Del_Alta>
         <Descripcion>8765 DMK</Descripcion>
-        <Cliente>
+        <Cliente codigo="AAA-000">
             <Numero_De_Viviendas>Seat</Numero_De_Viviendas>
             <Coste>Ibiza</Coste>
             <Resumen>8765 DMK</Resumen>
-            <Plazo></Plazo>
+            <Plazo>12</Plazo>
+        </Cliente>
+    </Sede>
+    <Sede codigo="A0000000">
+        <Direcciones>Jerez</Direcciones>
+        <Nombre_Del_Empleado>Porche</Nombre_Del_Empleado>
+        <Fecha_Del_Alta>2022-03-03</Fecha_Del_Alta>
+        <Descripcion>8765 DMK</Descripcion>
+        <Cliente codigo="AAA-000">
+            <Numero_De_Viviendas>Porche</Numero_De_Viviendas>
+            <Coste>Porche</Coste>
+            <Resumen>8765 DMK</Resumen>
+            <Plazo>12</Plazo>
         </Cliente>
     </Sede>
 </Clientes>
