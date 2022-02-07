@@ -45,7 +45,6 @@
 			<xs:pattern value="[A-Z]{3}-[0-9]{3}" />
 		</xs:restriction>
 	</xs:simpleType>
-
 	<xs:complexType name="viviendaDatos">
 		<xs:sequence>
 			<xs:element name="Coste">
