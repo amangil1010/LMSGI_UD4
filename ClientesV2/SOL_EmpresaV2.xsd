@@ -36,6 +36,18 @@
 					</xs:restriction>
 				</xs:simpleType>
 			</xs:element>
+			<xs:element name="vivienda" type="viviendaDatos" minOccurs="1" maxOccurs="unbounded"/>
+		</xs:sequence>
+		<xs:attribute name="codigo" type="codigoCliente" use="required"/>
+	</xs:complexType>
+	<xs:simpleType name="codigoCliente">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="[A-Z]{3}-[0-9]{3}" />
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:complexType name="viviendaDatos">
+		<xs:sequence>
 			<xs:element name="Coste">
 				<xs:simpleType>
 					<xs:restriction base="xs:decimal">
@@ -52,11 +64,11 @@
 				</xs:simpleType>
 			</xs:element>
 		</xs:sequence>
-		<xs:attribute name="codigo" type="codigoCliente" use="required"/>
+		<xs:attribute name="ID" type="codigoVivienda" use="required"/>
 	</xs:complexType>
-	<xs:simpleType name="codigoCliente">
+	<xs:simpleType name="codigoVivienda">
 		<xs:restriction base="xs:string">
-			<xs:pattern value="[A-Z]{3}-[0-9]{3}" />
+			<xs:pattern value="[0-9]{3}" />
 		</xs:restriction>
 	</xs:simpleType>
 </xs:schema>

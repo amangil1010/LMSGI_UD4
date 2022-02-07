@@ -1,28 +1,34 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <!--<!DOCTYPE Clientes SYSTEM "Empresa.dtd">-->
-<Clientes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="SOL_Empresa.xsd">    
+<Clientes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="SOL_EmpresaV2.xsd">    
     <Sede codigo="A0000000">
         <Direcciones>Arcos</Direcciones>
+        <Direcciones>Jerez</Direcciones>
         <Nombre_Del_Empleado>Seat</Nombre_Del_Empleado>
         <Fecha_Del_Alta>2022-02-22</Fecha_Del_Alta>
         <Descripcion>8765 DMK</Descripcion>
         <Cliente codigo="AAA-000">
             <Numero_De_Viviendas>1</Numero_De_Viviendas>
-            <Coste>2</Coste>
-            <Resumen>8765 DMK</Resumen>
-            <Plazo>12</Plazo>
+            <vivienda ID="001">
+                <Coste>2</Coste>
+                <Resumen>8765 DMK</Resumen>
+                <Plazo>12</Plazo>
+            </vivienda>
         </Cliente>
     </Sede>
     <Sede codigo="A0000000">
+        <Direcciones>Jerez</Direcciones>
         <Direcciones>Jerez</Direcciones>
         <Nombre_Del_Empleado>Porche</Nombre_Del_Empleado>
         <Fecha_Del_Alta>2022-03-03</Fecha_Del_Alta>
         <Descripcion>8765 DMK</Descripcion>
         <Cliente codigo="AAA-000">
             <Numero_De_Viviendas>2</Numero_De_Viviendas>
-            <Coste>3</Coste>
-            <Resumen>8765 DMK</Resumen>
-            <Plazo>12</Plazo>
+            <vivienda ID="001">
+                <Coste>2</Coste>
+                <Resumen>8765 DMK</Resumen>
+                <Plazo>12</Plazo>
+            </vivienda>
         </Cliente>
     </Sede>
 </Clientes>

@@ -18,7 +18,7 @@
 			<xs:element name="Nombre_Del_Empleado" type="xs:string" />
 			<xs:element name="Fecha_Del_Alta" type="xs:date" />
 			<xs:element name="Descripcion" type="xs:string" minOccurs="0"/>
-			<xs:element name="Cliente" type="clienteDatos" minOccurs="1" maxOccurs="unbounded" />
+			<xs:element name="Cliente" type="ClienteDatos" minOccurs="1" maxOccurs="unbounded" />
 		</xs:sequence>
 		<xs:attribute name="codigo" type="codigoTipo" use="required"/>
 	</xs:complexType>
