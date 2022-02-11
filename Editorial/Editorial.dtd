@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding = "UTF-8" ?>
+<!ELEMENT Editorial (Cabezera*, Region*)>
+<!ELEMENT Cabezera (Titulo, Descripccion,Fecha_De_Importe)>
+<!ELEMENT Titulo (#PCDATA)>
+<!ELEMENT Descripccion (#PCDATA)>
+<!ELEMENT Fecha_De_Importe (#PCDATA)>
+<!ELEMENT Region (Norte | Sur | Centro)>
+<!ELEMENT Norte (#PCDATA| trim | lib)>
+<!ELEMENT Sur (#PCDATA | trim | lib)>
+<!ELEMENT Centro (#PCDATA | trim | lib)>
+<!ELEMENT trim (#PCDATA)>
+<!ELEMENT lib (#PCDATA)>
+
+
+
